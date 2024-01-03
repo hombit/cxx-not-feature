@@ -1,0 +1,13 @@
+[package]
+name = "cxx-not-feature"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+v2 = []
+
+[dependencies]
+cxx = ">=1.0.114"
+
+[build-dependencies]
+cxx-build = ">=1.0.114"
